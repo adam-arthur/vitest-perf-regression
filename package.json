@@ -1,0 +1,16 @@
+{
+  "name": "vitest-perf-regression",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test.reporter": "vitest --reporter dot"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^20.0.3",
+    "vitest": "^0.26.3"
+  }
+}
