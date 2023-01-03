@@ -1,13 +1,5 @@
 import { describe, it, expect } from 'vitest'
 
-// All tests within this suite will be run in parallel
-
-
-
-
-const numMockSuites = 100
-const numMockTestsPerSuite = 10
-
 runMockTestSuite({
     numMockSuites: 100,
     numMockTestsPerSuite: 50,
