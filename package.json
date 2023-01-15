@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "scripts": {
     "test": "vitest run",
-    "test.reporter": "vitest run --reporter dot"
+    "test.dot": "vitest run --reporter dot",
+    "test.verbose": "vitest run --reporter verbose",
+    "test.default": "vitest run --reporter default",
+    "test.junit": "vitest run --reporter junit",
+    "test.json": "vitest run --reporter json",
+    "test.html": "vitest run --reporter html",
+    "test.hangingProcess": "vitest run --reporter hanging-process",
+    "test.ui": "vitest run --ui"
   },
   "devDependencies": {
-    "vitest": "^0.26.3"
+    "@vitest/ui": "^0.27.1",
+    "vitest": "^0.27.1"
   }
 }
